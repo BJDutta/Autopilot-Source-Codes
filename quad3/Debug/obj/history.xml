@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DLPC1768 -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3 -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\hwfiles -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\QRfiles -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\cmsis_boot -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\cmsis -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\mavlink\include\common -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\mavlink -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\mavlink\include -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\swfiles\kalman -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\lpc17xx_lib -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\lpc17xx_lib\include -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1 -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\swfiles -I..\..\..\..\..\Users\pc\Desktop\Autopilot_Development">
+      <target file="MPU6050.o" lastModified="14cebbd3ab1">
+         <source file="..\..\..\hwfiles\MPU6050.c" lastModified="14cc678469c"/>
+      </target>
+      <target file="MS5611.o" lastModified="14cebbd29c0">
+         <source file="..\..\..\hwfiles\MS5611.c" lastModified="148ea377f69"/>
+      </target>
+      <target file="lpc17xx_gpdma.o" lastModified="14cebbd3216">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_gpdma.c" lastModified="13bb15cd3c8"/>
+      </target>
+      <target file="lpc17xx_nvic.o" lastModified="14cebbd38d2">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_nvic.c" lastModified="13bb14661b0"/>
+      </target>
+      <target file="attitude_tobi_laurens.o" lastModified="14cebe1683f">
+         <source file="..\..\..\swfiles\attitude_tobi_laurens.c" lastModified="1488407c34e"/>
+      </target>
+      <target file="param.o" lastModified="14cebbd2c16">
+         <source file="..\..\..\QRfiles\param.c" lastModified="13c62b96618"/>
+      </target>
+      <target file="lpc17xx_uart.o" lastModified="14cebbd3193">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="13bb154f810"/>
+      </target>
+      <target file="imu.o" lastModified="14cebe1e921">
+         <source file="..\..\..\hwfiles\imu.c" lastModified="14ceb4f6fac"/>
+      </target>
+      <target file="gps.o" lastModified="14cebe1691c">
+         <source file="..\..\..\swfiles\gps.c" lastModified="14cebbc462c"/>
+      </target>
+      <target file="lpc17xx_clkpwr.o" lastModified="14cebbd2c50">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="13df271ef90"/>
+      </target>
+      <target file="lpc17xx_systick.o" lastModified="14cebbd3690">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_systick.c" lastModified="13bd2fe8da0"/>
+      </target>
+      <target file="lpc17xx_pinsel.o" lastModified="14cebbd3626">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="13df50bb128"/>
+      </target>
+      <target file="kalman.o" lastModified="14cebbd3ae4">
+         <source file="..\..\..\swfiles\kalman\kalman.c" lastModified="14888e74b20"/>
+      </target>
+      <target file="lpc17xx_adc.o" lastModified="14cebbd31d7">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_adc.c" lastModified="13ec05374d8"/>
+      </target>
+      <target file="lpc17xx_wdt.o" lastModified="14cebbd34e0">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_wdt.c" lastModified="13dcec82500"/>
+      </target>
+      <target file="matrix.o" lastModified="14cebbd395a">
+         <source file="..\..\..\swfiles\kalman\matrix.c" lastModified="14883f38395"/>
+      </target>
+      <target file="quat.o" lastModified="14cec133154">
+         <source file="..\..\..\swfiles\quat.c" lastModified="14cec131e68"/>
+      </target>
+      <target file="core_cm3.o" lastModified="14cebbd2bf4">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="146a4880071"/>
+      </target>
+      <target file="HMC5883L.o" lastModified="14cebbd2cd3">
+         <source file="..\..\..\hwfiles\HMC5883L.c" lastModified="13dcff55290"/>
+      </target>
+      <target file="comm.o" lastModified="14cebbd3347">
+         <source file="..\..\..\hwfiles\comm.c" lastModified="14c74a90ad2"/>
+      </target>
+      <target file="LED_Blink.o" lastModified="14cebbd3119">
+         <source file="..\..\..\hwfiles\LED_Blink.c" lastModified="13ebe0bea20"/>
+      </target>
+      <target file="system_LPC17xx.o" lastModified="14cebbd2d05">
+         <source file="..\..\..\cmsis_boot\system_LPC17xx.c" lastModified="146a4840b10"/>
+      </target>
+      <target file="control.o" lastModified="14cebe1e753">
+         <source file="..\..\..\swfiles\control.c" lastModified="14ceb8d7f6a"/>
+      </target>
+      <target file="transformation.o" lastModified="14cebbd3837">
+         <source file="..\..\..\swfiles\kalman\transformation.c" lastModified="148838c311c"/>
+      </target>
+      <target file="lpc17xx_i2c.o" lastModified="14cebbd36f7">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_i2c.c" lastModified="13dca4db0d0"/>
+      </target>
+      <target file="accelerometer_calibration.o" lastModified="14cebe166bd">
+         <source file="..\..\..\hwfiles\accelerometer_calibration.c" lastModified="14cd5e15298"/>
+      </target>
+      <target file="lpc17xx_exti.o" lastModified="14cebbd365a">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_exti.c" lastModified="13dee5fde08"/>
+      </target>
+      <target file="lpc17xx_gpio.o" lastModified="14cebbd3417">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="13df50b99b8"/>
+      </target>
+      <target file="lpc17xx_timer.o" lastModified="14cebbd2ae0">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_timer.c" lastModified="13bdd3d5738"/>
+      </target>
+      <target file="ublox.o" lastModified="14cebbd32f3">
+         <source file="..\..\..\hwfiles\ublox.c" lastModified="13f75924680"/>
+      </target>
+      <target file="startup_LPC17xx.o" lastModified="14cebbd35ca">
+         <source file="..\..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="146a4840b06"/>
+      </target>
+      <target file="mlink.o" lastModified="14cebe1ea08">
+         <source file="..\..\..\QRfiles\mlink.c" lastModified="14ce4d225a1"/>
+      </target>
+      <target file="chipid.o" lastModified="14cebbd3494">
+         <source file="..\..\..\hwfiles\chipid.c" lastModified="14ce5e1f7bb"/>
+      </target>
+      <target file="waypoint.o" lastModified="14cebe1e7df">
+         <source file="..\..\..\swfiles\waypoint.c" lastModified="14cc65d3759"/>
+      </target>
+      <target file="lpc17xx_rit.o" lastModified="14cebbd2c88">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_rit.c" lastModified="13bb146a030"/>
+      </target>
+      <target file="main.o" lastModified="14cebe92cd5">
+         <source file="..\..\..\main.c" lastModified="14cebe92906"/>
+      </target>
+      <target file="timing.o" lastModified="14cebbd297a">
+         <source file="..\..\..\hwfiles\timing.c" lastModified="14c5aae7697"/>
+      </target>
+      <target file="lpc17xx_libcfg_default.o" lastModified="14cebbd35ef">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="13df2722a28"/>
+      </target>
+      <target file="i2ceeprom.o" lastModified="14cebbd389f">
+         <source file="..\..\..\hwfiles\i2ceeprom.c" lastModified="13eb76a2150"/>
+      </target>
+      <target file="hil.o" lastModified="14cebe167e6">
+         <source file="..\..\..\hwfiles\hil.c" lastModified="14cc6609c45"/>
+      </target>
+      <target file="motor.o" lastModified="14cebbd3528">
+         <source file="..\..\..\hwfiles\motor.c" lastModified="14c5b9dd10a"/>
+      </target>
+      <target file="lpc17xx_pwm.o" lastModified="14cebbd3925">
+         <source file="..\..\..\lpc17xx_lib\source\lpc17xx_pwm.c" lastModified="13dc04ee608"/>
+      </target>
+   </processor>
+</history>

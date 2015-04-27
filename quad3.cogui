@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="13"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="control.c" partName="control.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/control.c" title="control.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/control.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/control.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1133" selectionTopPixel="5092"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="gps.c" partName="gps.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/gps.c" title="gps.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/gps.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/gps.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1898" selectionTopPixel="1882"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="comm.h" partName="comm.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/comm.h" title="comm.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/comm.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/hwfiles/comm.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="101" selectionTopPixel="180"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="comm.c" partName="comm.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/comm.c" title="comm.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/comm.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/hwfiles/comm.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="531" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mavlink_msg_gps_global_origin.h" partName="mavlink_msg_gps_global_origin.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/mavlink/include/common/mavlink_msg_gps_global_origin.h" title="mavlink_msg_gps_global_origin.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/mavlink/include/common/mavlink_msg_gps_global_origin.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/mavlink/include/common/mavlink_msg_gps_global_origin.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="1770"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="common.h" partName="common.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/mavlink/include/common/common.h" title="common.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/mavlink/include/common/common.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/mavlink/include/common/common.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="33120" selectionTopPixel="3692"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="config.h" partName="config.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/config.h" title="config.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/config.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/config.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="99" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="accelerometer_calibration.h" partName="accelerometer_calibration.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/accelerometer_calibration.h" title="accelerometer_calibration.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/accelerometer_calibration.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/hwfiles/accelerometer_calibration.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2028" selectionTopPixel="743"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="control.h" partName="control.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/control.h" title="control.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/control.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/control.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2059" selectionTopPixel="1393"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="gps.h" partName="gps.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/gps.h" title="gps.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/gps.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/gps.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="305" selectionTopPixel="7"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="imu.c" partName="imu.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/imu.c" title="imu.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/hwfiles/imu.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/hwfiles/imu.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3286" selectionTopPixel="2400"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="quat.c" partName="quat.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/quat.c" title="quat.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/quat.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/quat.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14420" selectionTopPixel="7189"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="quat.h" partName="quat.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/quat.h" title="quat.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/quat.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/quat.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="727" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mlink.c" partName="mlink.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/QRfiles/mlink.c" title="mlink.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/QRfiles/mlink.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/QRfiles/mlink.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12791" selectionTopPixel="6392"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="control.h" partName="control.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/control.h" title="control.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/swfiles/control.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/swfiles/control.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1494" selectionTopPixel="46"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mlink.h" partName="mlink.h" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/QRfiles/mlink.h" title="mlink.h" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/QRfiles/mlink.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/QRfiles/mlink.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="118" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/main.c" title="main.c" tooltip="C:/Users/pc/Desktop/Autopilot_Development/quad infinium serve - hexa -1/quad3/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/quad3/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="972" selectionTopPixel="210"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<expanded>
+<element path="/quad3"/>
+</expanded>
+<selection>
+<element path="/quad3/QRfiles"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.ui.typeHierarchy" partName="Type Hierarchy">
+<viewState filterFields="false" filterNonPublic="false" filterStatic="false" showFilesInLabels="false" showInheritedMembers="false" splitterWeight1="350" splitterWeight2="650" viewOrientation="0"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.coocox.component.ui.Help" partName="Help">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.cdt.ui.typeHierarchy"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@b66f4a" orientation="512" selectedTabId="org.coocox.component.ui.Help" style="0">
+<fastViews>
+<view id="org.coocox.component.ui.Help" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c6f9c5">
+<folder appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c6f9c5">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1baeeb0" ratio="0.9504792" ratioLeft="595" ratioRight="31" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1c6f9c5">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.cdt.ui.typeHierarchy" label="Type Hierarchy"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.11822289" ratioLeft="157" ratioRight="1171" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1c6f9c5"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b66f4a" ratio="0.719923" ratioLeft="748" ratioRight="291" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder appearance="2" expanded="2">
+<page content="org.coocox.component.ui.Help" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4499205" ratioLeft="283" ratioRight="346" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3800b5" ratio="0.20926517" ratioLeft="131" ratioRight="495" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1c6f9c5">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.codebugger.configuration.ui.Perspective" id="org.coocox.codebugger.configuration.perspective" label="CoDebugger"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFolder"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_menu_item_id id="org.eclipse.ui.file.save"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAll"/>
+<hide_menu_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openFile"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAs"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.projectMenu"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.flashMenu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.debug"/>
+<hide_menu_item_id id="org.coocox.builder.ui.showHelpViewAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_menu_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.build"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_menu_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.TargetManageAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newProject"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_toolbar_item_id id="org.eclipse.ui.file.save"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideFlashEraseAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.debug"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.coocox.codebugger.trace.ui.traceview"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@182d67" orientation="256" selectedTabId="org.eclipse.cdt.dsf.debug.ui.disassembly.view" style="0">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@14d04d7">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7498122" ratioLeft="998" ratioRight="333" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14d04d7">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@121741b" ratio="0.69952303" ratioLeft="440" ratioRight="189" relationship="4" relative="org.eclipse.ui.internal.ViewStack@14d04d7">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@14db2d6" ratio="0.57564574" ratioLeft="780" ratioRight="575" relationship="2" relative="org.eclipse.ui.internal.ViewStack@121741b">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@182d67" ratio="0.6118081" ratioLeft="829" ratioRight="526" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14d04d7">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.21141838" ratioLeft="237" ratioRight="884" relationship="2" relative="org.eclipse.ui.internal.ViewStack@14d04d7"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/gps.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/quat.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/control.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/quat.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/gps.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/QRfiles/mlink.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/gps.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/gps.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/quat.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/quad3/swfiles/control.h"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
+<org.coocox.welcome.ui.WelcomePage/>
+</editor>
+<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
+<subPage/>
+</editor>
+</editors>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="1483" y="28"/>
+</item>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="1611" y="0"/>
+</item>
+<item historyLabel="gps.h" index="5">
+<position info="not_deleted" x="305" y="0"/>
+</item>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="1611" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="388" y="10"/>
+</item>
+<item historyLabel="quat.h" index="4">
+<position info="not_deleted" x="706" y="0"/>
+</item>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="1611" y="0"/>
+</item>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="274" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="390" y="0"/>
+</item>
+<item historyLabel="quat.h" index="4">
+<position/>
+</item>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="390" y="0"/>
+</item>
+<item historyLabel="quat.h" index="4">
+<position/>
+</item>
+<item historyLabel="quat.h" index="4">
+<position info="not_deleted" x="606" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="390" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="13291" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14360" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14369" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14413" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14402" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14364" y="0"/>
+</item>
+<item historyLabel="quat.h" index="4">
+<position info="not_deleted" x="399" y="0"/>
+</item>
+<item historyLabel="control.c" index="3">
+<position info="not_deleted" x="1133" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14364" y="0"/>
+</item>
+<item historyLabel="gps.c" index="0">
+<position info="not_deleted" x="1898" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14364" y="0"/>
+</item>
+<item historyLabel="control.c" index="3">
+<position info="not_deleted" x="1133" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="425" y="0"/>
+</item>
+<item historyLabel="quat.h" index="4">
+<position info="not_deleted" x="727" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="3876" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="7573" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14859" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="7573" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14242" y="0"/>
+</item>
+<item historyLabel="control.c" index="3">
+<position info="not_deleted" x="1133" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="14242" y="0"/>
+</item>
+<item historyLabel="mlink.h" index="6">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="305" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="7573" y="0"/>
+</item>
+<item historyLabel="gps.h" index="8">
+<position info="not_deleted" x="305" y="0"/>
+</item>
+<item historyLabel="gps.c" index="9">
+<position info="not_deleted" x="1898" y="0"/>
+</item>
+<item historyLabel="quat.c" index="1">
+<position info="not_deleted" x="15843" y="0"/>
+</item>
+<item historyLabel="quat.h" index="10">
+<position info="not_deleted" x="727" y="0"/>
+</item>
+<item historyLabel="control.h" index="11">
+<position info="not_deleted" x="1494" y="0"/>
+</item>
+<item historyLabel="mlink.h" index="6">
+<position info="not_deleted" x="118" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="7251" y="0"/>
+</item>
+<item historyLabel="welcome" index="12"/>
+<item historyLabel="Repository" index="13"/>
+<item historyLabel="welcome" index="12"/>
+<item active="true" historyLabel="main.c" index="7">
+<position info="not_deleted" x="7251" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>
+<subPage/>
+</persistable>
+</file>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
+<persistable>
+<org.coocox.welcome.ui.WelcomePage/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mavlink_msg_param_set.h" tooltip="quad3/mavlink/include/common/mavlink_msg_param_set.h">
+<persistable path="/quad3/mavlink/include/common/mavlink_msg_param_set.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="quad3/main.c">
+<persistable path="/quad3/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LED_Blink.c" tooltip="quad3/hwfiles/LED_Blink.c">
+<persistable path="/quad3/hwfiles/LED_Blink.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="chipid.c" tooltip="quad3/hwfiles/chipid.c">
+<persistable path="/quad3/hwfiles/chipid.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="chipid.h" tooltip="quad3/hwfiles/chipid.h">
+<persistable path="/quad3/hwfiles/chipid.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lpc17xx_i2c.c" tooltip="quad3/lpc17xx_lib/source/lpc17xx_i2c.c">
+<persistable path="/quad3/lpc17xx_lib/source/lpc17xx_i2c.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mavlink_msg_global_position_int.h" tooltip="quad3/mavlink/include/common/mavlink_msg_global_position_int.h">
+<persistable path="/quad3/mavlink/include/common/mavlink_msg_global_position_int.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mlink.h" tooltip="quad3/QRfiles/mlink.h">
+<persistable path="/quad3/QRfiles/mlink.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MPU6050.c" tooltip="quad3/hwfiles/MPU6050.c">
+<persistable path="/quad3/hwfiles/MPU6050.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MPU6050.h" tooltip="quad3/hwfiles/MPU6050.h">
+<persistable path="/quad3/hwfiles/MPU6050.h"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="opticflow.h" tooltip="C:\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\opticflow.h">
+<persistable path="C:\Users\pc\Desktop\Autopilot_Development\quad infinium serve - hexa -1\quad3\opticflow.h" project="quad3"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="accelerometer_calibration.c" tooltip="quad3/hwfiles/accelerometer_calibration.c">
+<persistable path="/quad3/hwfiles/accelerometer_calibration.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hil.c" tooltip="quad3/hwfiles/hil.c">
+<persistable path="/quad3/hwfiles/hil.c"/>
+</file>
+</mruList>
+</workbench>

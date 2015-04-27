@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.2" name="quad3">
+  <Target name="quad3" isCurrent="1">
+    <Device manufacturerId="7" manufacturerName="NXP" chipId="165" chipName="LPC1768" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="LPC1768"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="UserEditLinker" value=""/>
+        <LinkedLibraries>
+          <Libset dir="" libs="m"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00080000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00008000" startValue="0x10000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00008000" startValue="0x2007C000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../../../../../coocox/coide/configuration/programdata/quad3/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="quad3"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="2M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="LPC17xx_512.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="253" name="CMSIS_boot" path="" type="2"/>
+    <Component id="254" name="Common_Header" path="" type="2"/>
+    <Component id="255" name="CLKPWR" path="" type="2"/>
+    <Component id="257" name="GPIO" path="" type="2"/>
+    <Component id="258" name="PINSEL" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="QRfiles/bridge.h" path="QRfiles/bridge.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_change_operator_control.h" path="mavlink/include/common/mavlink_msg_change_operator_control.h" type="1"/>
+    <File name="swfiles/waypoint.c" path="swfiles/waypoint.c" type="1"/>
+    <File name="Debug (1)/obj/LED_Blink.o" path="Debug (1)/obj/LED_Blink.o" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_timer.o" path="Debug (1)/obj/lpc17xx_timer.o" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_wdt.o" path="Debug (1)/obj/lpc17xx_wdt.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_manual_control.h" path="mavlink/include/common/mavlink_msg_manual_control.h" type="1"/>
+    <File name="hwfiles/type.h" path="hwfiles/type.h" type="1"/>
+    <File name="Debug (1)/obj/control.o" path="Debug (1)/obj/control.o" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_systick.c" path="lpc17xx_lib/source/lpc17xx_systick.c" type="1"/>
+    <File name="Debug (1)/obj/i2ceeprom.o" path="Debug (1)/obj/i2ceeprom.o" type="1"/>
+    <File name="hwfiles/timing.h" path="hwfiles/timing.h" type="1"/>
+    <File name="hwfiles/ublox.c" path="hwfiles/ublox.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_optical_flow.h" path="mavlink/include/common/mavlink_msg_optical_flow.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_exti.h" path="lpc17xx_lib/include/lpc17xx_exti.h" type="1"/>
+    <File name="hwfiles/imu.c" path="hwfiles/imu.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_roll_pitch_yaw_speed_thrust.h" path="mavlink/include/common/mavlink_msg_set_roll_pitch_yaw_speed_thrust.h" type="1"/>
+    <File name="Debug (1)/obj/imu.o" path="Debug (1)/obj/imu.o" type="1"/>
+    <File name="cmsis_boot/startup/startup_LPC17xx.c" path="cmsis_boot/startup/startup_LPC17xx.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_6q.h" path="mavlink/include/common/mavlink_msg_vicon_6q.h" type="1"/>
+    <File name="Debug (1)/bin/quad1.hex" path="Debug (1)/bin/quad1.hex" type="1"/>
+    <File name="Debug (1)/bin/quad1.map" path="Debug (1)/bin/quad1.map" type="1"/>
+    <File name="swfiles/mav_vect.h" path="swfiles/kalman/mav_vect.h" type="1"/>
+    <File name="hwfiles/timing.c" path="hwfiles/timing.c" type="1"/>
+    <File name="swfiles/gps.h" path="swfiles/gps.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_setpoint_6dof.h" path="mavlink/include/common/mavlink_msg_setpoint_6dof.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_exti.o" path="Debug (1)/obj/lpc17xx_exti.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_state_correction.h" path="mavlink/include/common/mavlink_msg_state_correction.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_i2c.o" path="Debug (1)/obj/lpc17xx_i2c.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_set_current.h" path="mavlink/include/common/mavlink_msg_mission_set_current.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_hil_rc_inputs_raw.h" path="mavlink/include/common/mavlink_msg_hil_rc_inputs_raw.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_nvic.o" path="Debug (1)/obj/lpc17xx_nvic.o" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_pinsel.h" path="lpc17xx_lib/include/lpc17xx_pinsel.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_request_data_stream.h" path="mavlink/include/common/mavlink_msg_request_data_stream.h" type="1"/>
+    <File name="Debug (1)/obj/quat.o" path="Debug (1)/obj/quat.o" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_pinsel.o" path="Debug (1)/obj/lpc17xx_pinsel.o" type="1"/>
+    <File name="hwfiles/comm.c" path="hwfiles/comm.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_position_estimate.h" path="mavlink/include/common/mavlink_msg_vicon_position_estimate.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_local_position_ned_system_global_offset.h" path="mavlink/include/common/mavlink_msg_local_position_ned_system_global_offset.h" type="1"/>
+    <File name="Debug (1)/obj/gps.o" path="Debug (1)/obj/gps.o" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_clkpwr.o" path="Debug (1)/obj/lpc17xx_clkpwr.o" type="1"/>
+    <File name="mavlink/include/protocol.h" path="mavlink/include/protocol.h" type="1"/>
+    <File name="mavlink/include" path="" type="2"/>
+    <File name="swfiles/attitude_tobi_laurens.h" path="swfiles/attitude_tobi_laurens.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_i2c.h" path="lpc17xx_lib/include/lpc17xx_i2c.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_rit.h" path="lpc17xx_lib/include/lpc17xx_rit.h" type="1"/>
+    <File name="hwfiles/comm.h" path="hwfiles/comm.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_mode.h" path="mavlink/include/common/mavlink_msg_set_mode.h" type="1"/>
+    <File name="Debug (1)/obj/history.xml" path="Debug (1)/obj/history.xml" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_global_position_setpoint_int.h" path="mavlink/include/common/mavlink_msg_set_global_position_setpoint_int.h" type="1"/>
+    <File name="swfiles/gps.c" path="swfiles/gps.c" type="1"/>
+    <File name="hwfiles/LED_Blink.c" path="hwfiles/LED_Blink.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_roll_pitch_yaw_thrust.h" path="mavlink/include/common/mavlink_msg_set_roll_pitch_yaw_thrust.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_pwm.h" path="lpc17xx_lib/include/lpc17xx_pwm.h" type="1"/>
+    <File name="lpc17xx_lib/include" path="" type="2"/>
+    <File name="mavlink/include/common/mavlink_msg_command_long.h" path="mavlink/include/common/mavlink_msg_command_long.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_gpdma.o" path="Debug (1)/obj/lpc17xx_gpdma.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_global_vision_position_estimate.h" path="mavlink/include/common/mavlink_msg_global_vision_position_estimate.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_change_operator_control_ack.h" path="mavlink/include/common/mavlink_msg_change_operator_control_ack.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_systick.o" path="Debug (1)/obj/lpc17xx_systick.o" type="1"/>
+    <File name="QRfiles" path="" type="2"/>
+    <File name="Debug (1)" path="" type="2"/>
+    <File name="hwfiles/imu.h" path="hwfiles/imu.h" type="1"/>
+    <File name="Debug (1)/obj/timing.o" path="Debug (1)/obj/timing.o" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_uart.c" path="lpc17xx_lib/source/lpc17xx_uart.c" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="swfiles/quat.h" path="swfiles/quat.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_systick.h" path="lpc17xx_lib/include/lpc17xx_systick.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="Debug (1)/obj/HMC5883L.o" path="Debug (1)/obj/HMC5883L.o" type="1"/>
+    <File name="hwfiles/LED_Blink.h" path="hwfiles/LED_Blink.h" type="1"/>
+    <File name="mavlink/include/checksum.h" path="mavlink/include/checksum.h" type="1"/>
+    <File name="Debug (1)/bin/quad1.elf" path="Debug (1)/bin/quad1.elf" type="1"/>
+    <File name="swfiles/attitude_tobi_laurens.c" path="swfiles/attitude_tobi_laurens.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_param_request_list.h" path="mavlink/include/common/mavlink_msg_param_request_list.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_debug.h" path="mavlink/include/common/mavlink_msg_debug.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_4q.h" path="mavlink/include/common/mavlink_msg_vicon_4q.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_adc.c" path="lpc17xx_lib/source/lpc17xx_adc.c" type="1"/>
+    <File name="mavlink/include/common/common.h" path="mavlink/include/common/common.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_ping.h" path="mavlink/include/common/mavlink_msg_ping.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_memory_vect.h" path="mavlink/include/common/mavlink_msg_memory_vect.h" type="1"/>
+    <File name="lpc17xx_lib" path="" type="2"/>
+    <File name="Debug (1)/obj" path="" type="2"/>
+    <File name="swfiles" path="" type="2"/>
+    <File name="Debug (1)/obj/startup_LPC17xx.o" path="Debug (1)/obj/startup_LPC17xx.o" type="1"/>
+    <File name="hwfiles" path="" type="2"/>
+    <File name="lpc17xx_lib/source/lpc17xx_pwm.c" path="lpc17xx_lib/source/lpc17xx_pwm.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_gps_global_origin.h" path="mavlink/include/common/mavlink_msg_gps_global_origin.h" type="1"/>
+    <File name="Debug (1)/obj/ublox.o" path="Debug (1)/obj/ublox.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h" path="mavlink/include/common/mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_gps_status.h" path="mavlink/include/common/mavlink_msg_gps_status.h" type="1"/>
+    <File name="Debug (1)/obj/motor.o" path="Debug (1)/obj/motor.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_nav_controller_output.h" path="mavlink/include/common/mavlink_msg_nav_controller_output.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_uart.h" path="lpc17xx_lib/include/lpc17xx_uart.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_sys_status.h" path="mavlink/include/common/mavlink_msg_sys_status.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_param_value.h" path="mavlink/include/common/mavlink_msg_param_value.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_servo_output_raw.h" path="mavlink/include/common/mavlink_msg_servo_output_raw.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_clkpwr.c" path="lpc17xx_lib/source/lpc17xx_clkpwr.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_gpio.h" path="lpc17xx_lib/include/lpc17xx_gpio.h" type="1"/>
+    <File name="swfiles/matrix.h" path="swfiles/kalman/matrix.h" type="1"/>
+    <File name="hwfiles/motor.c" path="hwfiles/motor.c" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_libcfg_default.o" path="Debug (1)/obj/lpc17xx_libcfg_default.o" type="1"/>
+    <File name="swfiles/quat.c" path="swfiles/quat.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_heartbeat.h" path="mavlink/include/common/mavlink_msg_heartbeat.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_request_list.h" path="mavlink/include/common/mavlink_msg_mission_request_list.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_param_request_read.h" path="mavlink/include/common/mavlink_msg_param_request_read.h" type="1"/>
+    <File name="hwfiles/ublox.h" path="hwfiles/ublox.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vfr_hud.h" path="mavlink/include/common/mavlink_msg_vfr_hud.h" type="1"/>
+    <File name="QRfiles/param.h" path="QRfiles/param.h" type="1"/>
+    <File name="hwfiles/i2ceeprom.h" path="hwfiles/i2ceeprom.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vision_speed_estimate.h" path="mavlink/include/common/mavlink_msg_vision_speed_estimate.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_rit.c" path="lpc17xx_lib/source/lpc17xx_rit.c" type="1"/>
+    <File name="Debug (1)/obj/main.o" path="Debug (1)/obj/main.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_2q.h" path="mavlink/include/common/mavlink_msg_vicon_2q.h" type="1"/>
+    <File name="Debug (1)/bin/history.xml" path="Debug (1)/bin/history.xml" type="1"/>
+    <File name="Debug (1)/obj/mlink.o" path="Debug (1)/obj/mlink.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_item.h" path="mavlink/include/common/mavlink_msg_mission_item.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_param_set.h" path="mavlink/include/common/mavlink_msg_param_set.h" type="1"/>
+    <File name="Debug (1)/obj/MS5611.o" path="Debug (1)/obj/MS5611.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_hil_state.h" path="mavlink/include/common/mavlink_msg_hil_state.h" type="1"/>
+    <File name="hwfiles/MPU6050.h" path="hwfiles/MPU6050.h" type="1"/>
+    <File name="Debug (1)/obj/comm.o" path="Debug (1)/obj/comm.o" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_gpdma.h" path="lpc17xx_lib/include/lpc17xx_gpdma.h" type="1"/>
+    <File name="swfiles/kalman.h" path="swfiles/kalman/kalman.h" type="1"/>
+    <File name="hwfiles/HMC5883L.c" path="hwfiles/HMC5883L.c" type="1"/>
+    <File name="swfiles/control.h" path="swfiles/control.h" type="1"/>
+    <File name="swfiles/matrix.c" path="swfiles/kalman/matrix.c" type="1"/>
+    <File name="Debug (1)/obj/param.o" path="Debug (1)/obj/param.o" type="1"/>
+    <File name="swfiles/kalman.c" path="swfiles/kalman/kalman.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_nvic.c" path="lpc17xx_lib/source/lpc17xx_nvic.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_pinsel.c" path="lpc17xx_lib/source/lpc17xx_pinsel.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_rc_channels_raw.h" path="mavlink/include/common/mavlink_msg_rc_channels_raw.h" type="1"/>
+    <File name="Debug (1)/bin/quad1.bin" path="Debug (1)/bin/quad1.bin" type="1"/>
+    <File name="hwfiles/i2ceeprom.c" path="hwfiles/i2ceeprom.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_debug_vect.h" path="mavlink/include/common/mavlink_msg_debug_vect.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_3q.h" path="mavlink/include/common/mavlink_msg_vicon_3q.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_wdt.c" path="lpc17xx_lib/source/lpc17xx_wdt.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_scaled_imu.h" path="mavlink/include/common/mavlink_msg_scaled_imu.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_gpio.c" path="lpc17xx_lib/source/lpc17xx_gpio.c" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_pwm.o" path="Debug (1)/obj/lpc17xx_pwm.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_roll_pitch_yaw_thrust_setpoint.h" path="mavlink/include/common/mavlink_msg_roll_pitch_yaw_thrust_setpoint.h" type="1"/>
+    <File name="swfiles/control.c" path="swfiles/control.c" type="1"/>
+    <File name="QRfiles/param.c" path="QRfiles/param.c" type="1"/>
+    <File name="mavlink/include/common" path="" type="2"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_current.h" path="mavlink/include/common/mavlink_msg_mission_current.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_rc_channels_override.h" path="mavlink/include/common/mavlink_msg_rc_channels_override.h" type="1"/>
+    <File name="hwfiles/chipid.c" path="hwfiles/chipid.c" type="1"/>
+    <File name="Debug (1)/bin/quad1.txt" path="Debug (1)/bin/quad1.txt" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_1q.h" path="mavlink/include/common/mavlink_msg_vicon_1q.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_raw_imu.h" path="mavlink/include/common/mavlink_msg_raw_imu.h" type="1"/>
+    <File name="Debug (1)/obj/dependencies.xml" path="Debug (1)/obj/dependencies.xml" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_nvic.h" path="lpc17xx_lib/include/lpc17xx_nvic.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_libcfg_default.h" path="lpc17xx_lib/include/lpc17xx_libcfg_default.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_safety_set_allowed_area.h" path="mavlink/include/common/mavlink_msg_safety_set_allowed_area.h" type="1"/>
+    <File name="Debug (1)/obj/core_cm3.o" path="Debug (1)/obj/core_cm3.o" type="1"/>
+    <File name="cmsis_boot/system_LPC17xx.c" path="cmsis_boot/system_LPC17xx.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_gps_global_origin.h" path="mavlink/include/common/mavlink_msg_set_gps_global_origin.h" type="1"/>
+    <File name="hwfiles/accelerometer_calibration.c" path="hwfiles/accelerometer_calibration.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_global_position_int.h" path="mavlink/include/common/mavlink_msg_global_position_int.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_timer.c" path="lpc17xx_lib/source/lpc17xx_timer.c" type="1"/>
+    <File name="Debug (1)/obj/system_LPC17xx.o" path="Debug (1)/obj/system_LPC17xx.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_raw_pressure.h" path="mavlink/include/common/mavlink_msg_raw_pressure.h" type="1"/>
+    <File name="cmsis_boot/LPC17xx.h" path="cmsis_boot/LPC17xx.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vicon_5q.h" path="mavlink/include/common/mavlink_msg_vicon_5q.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_timer.h" path="lpc17xx_lib/include/lpc17xx_timer.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_local_position_setpoint.h" path="mavlink/include/common/mavlink_msg_local_position_setpoint.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="mavlink/include/common/mavlink_msg_set_quad_motors_setpoint.h" path="mavlink/include/common/mavlink_msg_set_quad_motors_setpoint.h" type="1"/>
+    <File name="hwfiles/MS5611.h" path="hwfiles/MS5611.h" type="1"/>
+    <File name="swfiles/mathfunc.h" path="swfiles/mathfunc.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_wdt.h" path="lpc17xx_lib/include/lpc17xx_wdt.h" type="1"/>
+    <File name="cmsis_boot/system_LPC17xx.h" path="cmsis_boot/system_LPC17xx.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_gpio.o" path="Debug (1)/obj/lpc17xx_gpio.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_vision_position_estimate.h" path="mavlink/include/common/mavlink_msg_vision_position_estimate.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_i2c.c" path="lpc17xx_lib/source/lpc17xx_i2c.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_ack.h" path="mavlink/include/common/mavlink_msg_mission_ack.h" type="1"/>
+    <File name="hwfiles/HMC5883L.h" path="hwfiles/HMC5883L.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_clear_all.h" path="mavlink/include/common/mavlink_msg_mission_clear_all.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h" path="mavlink/include/common/mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_highres_imu.h" path="mavlink/include/common/mavlink_msg_highres_imu.h" type="1"/>
+    <File name="hwfiles/accelerometer_calibration.h" path="hwfiles/accelerometer_calibration.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_named_value_int.h" path="mavlink/include/common/mavlink_msg_named_value_int.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_item_reached.h" path="mavlink/include/common/mavlink_msg_mission_item_reached.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_gps_raw_int.h" path="mavlink/include/common/mavlink_msg_gps_raw_int.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_data_stream.h" path="mavlink/include/common/mavlink_msg_data_stream.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_libcfg_default.c" path="lpc17xx_lib/source/lpc17xx_libcfg_default.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_named_value_float.h" path="mavlink/include/common/mavlink_msg_named_value_float.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_gpdma.c" path="lpc17xx_lib/source/lpc17xx_gpdma.c" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_uart.o" path="Debug (1)/obj/lpc17xx_uart.o" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_command_ack.h" path="mavlink/include/common/mavlink_msg_command_ack.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_local_position_ned.h" path="mavlink/include/common/mavlink_msg_local_position_ned.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_write_partial_list.h" path="mavlink/include/common/mavlink_msg_mission_write_partial_list.h" type="1"/>
+    <File name="hwfiles/MS5611.c" path="hwfiles/MS5611.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_adc.h" path="lpc17xx_lib/include/lpc17xx_adc.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="mavlink/include/common/mavlink_msg_system_time.h" path="mavlink/include/common/mavlink_msg_system_time.h" type="1"/>
+    <File name="Debug (1)/obj/MPU6050.o" path="Debug (1)/obj/MPU6050.o" type="1"/>
+    <File name="swfiles/transformation.c" path="swfiles/kalman/transformation.c" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_local_position_setpoint.h" path="mavlink/include/common/mavlink_msg_set_local_position_setpoint.h" type="1"/>
+    <File name="QRfiles/mlink.h" path="QRfiles/mlink.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_request.h" path="mavlink/include/common/mavlink_msg_mission_request.h" type="1"/>
+    <File name="cmsis/core_cm3.c" path="cmsis/core_cm3.c" type="1"/>
+    <File name="mavlink/include/common/version.h" path="mavlink/include/common/version.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_auth_key.h" path="mavlink/include/common/mavlink_msg_auth_key.h" type="1"/>
+    <File name="Debug (1)/obj/lpc17xx_rit.o" path="Debug (1)/obj/lpc17xx_rit.o" type="1"/>
+    <File name="lpc17xx_lib/source" path="" type="2"/>
+    <File name="mavlink" path="" type="2"/>
+    <File name="mavlink/include/common/mavlink_msg_attitude.h" path="mavlink/include/common/mavlink_msg_attitude.h" type="1"/>
+    <File name="config.h" path="config.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_battery_status.h" path="mavlink/include/common/mavlink_msg_battery_status.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_clkpwr.h" path="lpc17xx_lib/include/lpc17xx_clkpwr.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_scaled_pressure.h" path="mavlink/include/common/mavlink_msg_scaled_pressure.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_hil_controls.h" path="mavlink/include/common/mavlink_msg_hil_controls.h" type="1"/>
+    <File name="QRfiles/mlink.c" path="QRfiles/mlink.c" type="1"/>
+    <File name="mavlink/include/mavlink_helpers.h" path="mavlink/include/mavlink_helpers.h" type="1"/>
+    <File name="hwfiles/chipid.h" path="hwfiles/chipid.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_setpoint_8dof.h" path="mavlink/include/common/mavlink_msg_setpoint_8dof.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_safety_allowed_area.h" path="mavlink/include/common/mavlink_msg_safety_allowed_area.h" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h" path="mavlink/include/common/mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_statustext.h" path="mavlink/include/common/mavlink_msg_statustext.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_global_position_setpoint_int.h" path="mavlink/include/common/mavlink_msg_global_position_setpoint_int.h" type="1"/>
+    <File name="hwfiles/hil.c" path="hwfiles/hil.c" type="1"/>
+    <File name="mavlink/include/mavlink_protobuf_manager.hpp" path="mavlink/include/mavlink_protobuf_manager.hpp" type="1"/>
+    <File name="hwfiles/hil.h" path="hwfiles/hil.h" type="1"/>
+    <File name="hwfiles/MPU6050.c" path="hwfiles/MPU6050.c" type="1"/>
+    <File name="hwfiles/motor.h" path="hwfiles/motor.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_request_partial_list.h" path="mavlink/include/common/mavlink_msg_mission_request_partial_list.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_mission_count.h" path="mavlink/include/common/mavlink_msg_mission_count.h" type="1"/>
+    <File name="mavlink/include/common/testsuite.h" path="mavlink/include/common/testsuite.h" type="1"/>
+    <File name="swfiles/waypoint.h" path="swfiles/waypoint.h" type="1"/>
+    <File name="mavlink/include/common/mavlink_msg_attitude_quaternion.h" path="mavlink/include/common/mavlink_msg_attitude_quaternion.h" type="1"/>
+    <File name="swfiles/transformation.h" path="swfiles/kalman/transformation.h" type="1"/>
+    <File name="mavlink/include/mavlink_types.h" path="mavlink/include/mavlink_types.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc_types.h" path="lpc17xx_lib/include/lpc_types.h" type="1"/>
+    <File name="mavlink/include/common/mavlink.h" path="mavlink/include/common/mavlink.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_exti.c" path="lpc17xx_lib/source/lpc17xx_exti.c" type="1"/>
+    <File name="Debug (1)/bin" path="" type="2"/>
+    <File name="mavlink/include/common/mavlink_msg_rc_channels_scaled.h" path="mavlink/include/common/mavlink_msg_rc_channels_scaled.h" type="1"/>
+  </Files>
+</Project>

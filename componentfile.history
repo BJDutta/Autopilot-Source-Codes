@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<History> 
+  <File usedCount="2" path="lpc17xx_lib/include/lpc17xx_timer.h"/>  
+  <File usedCount="2" path="lpc17xx_lib/source/lpc17xx_timer.c"/>  
+  <File usedCount="2" path="cmsis/core_cm3.h"/>  
+  <File usedCount="2" path="cmsis_boot/startup/startup_lpc17xx.c"/>
+</History>

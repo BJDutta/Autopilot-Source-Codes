@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.2 -O0 -nostartfiles -Map=quad1.map -mcpu=cortex-m3 -mthumb -LC:\Users\GG\Google Drive\ideas\coide\quad1\quad1 --gc-sections -TC:\Users\GG\Google Drive\ideas\coide\quad1\quad1\link.ld -g -L..\.. -lm">
+      <target file="quad1.elf" lastModified="13e92cc81c8">
+         <source file="..\obj\timing.o" lastModified="13e92b7cd5f"/>
+         <source file="..\obj\MS5611.o" lastModified="13e92b7cdd3"/>
+         <source file="..\obj\control.o" lastModified="13e92b7cee1"/>
+         <source file="..\obj\lpc17xx_timer.o" lastModified="13e92b7cf5b"/>
+         <source file="..\obj\imu.o" lastModified="13e92cc7f38"/>
+         <source file="..\obj\core_cm3.o" lastModified="13e92b7d09c"/>
+         <source file="..\obj\param.o" lastModified="13e92b7d0ce"/>
+         <source file="..\obj\lpc17xx_clkpwr.o" lastModified="13e92b7d123"/>
+         <source file="..\obj\lpc17xx_rit.o" lastModified="13e92b7d175"/>
+         <source file="..\obj\HMC5883L.o" lastModified="13e92b7d1e6"/>
+         <source file="..\obj\system_LPC17xx.o" lastModified="13e92b7d232"/>
+         <source file="..\obj\mlink.o" lastModified="13e92b7d371"/>
+         <source file="..\obj\LED_Blink.o" lastModified="13e92b7d3ba"/>
+         <source file="..\obj\lpc17xx_uart.o" lastModified="13e92b7d478"/>
+         <source file="..\obj\lpc17xx_gpdma.o" lastModified="13e92b7d4de"/>
+         <source file="..\obj\main.o" lastModified="13e92b7d5dd"/>
+         <source file="..\obj\ublox.o" lastModified="13e92b7d6ac"/>
+         <source file="..\obj\comm.o" lastModified="13e92b7d78e"/>
+         <source file="..\obj\lpc17xx_gpio.o" lastModified="13e92b7d80b"/>
+         <source file="..\obj\lpc17xx_wdt.o" lastModified="13e92b7d861"/>
+         <source file="..\obj\motor.o" lastModified="13e92b7d8c9"/>
+         <source file="..\obj\startup_LPC17xx.o" lastModified="13e92b7d904"/>
+         <source file="..\obj\lpc17xx_libcfg_default.o" lastModified="13e92b7d93c"/>
+         <source file="..\obj\lpc17xx_pinsel.o" lastModified="13e92b7d991"/>
+         <source file="..\obj\lpc17xx_exti.o" lastModified="13e92b7d9ee"/>
+         <source file="..\obj\lpc17xx_systick.o" lastModified="13e92b7da3f"/>
+         <source file="..\obj\lpc17xx_i2c.o" lastModified="13e92b7dae1"/>
+         <source file="..\obj\gps.o" lastModified="13e92b7dbc4"/>
+         <source file="..\obj\i2ceeprom.o" lastModified="13e92b7dc5f"/>
+         <source file="..\obj\lpc17xx_nvic.o" lastModified="13e92b7dca7"/>
+         <source file="..\obj\lpc17xx_pwm.o" lastModified="13e92b7dd25"/>
+         <source file="..\obj\quat.o" lastModified="13e92c7c786"/>
+         <source file="..\obj\MPU6050.o" lastModified="13e92b7dec1"/>
+      </target>
+   </processor>
+</history>

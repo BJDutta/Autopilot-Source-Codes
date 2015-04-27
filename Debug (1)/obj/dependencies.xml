@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I. /Ilpc17xx_lib /Ilpc17xx_lib\include /Icmsis_boot /Icmsis /Ihwfiles /Iswfiles /IQRfiles /Imavlink /Imavlink\include /Imavlink\include\common">
+      <source file="..\..\hwfiles\LED_Blink.h" lastModified="13bb142109c">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_roll_pitch_yaw_thrust.h" lastModified="13bcea437aa">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_param_request_list.h" lastModified="13bcea43697">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_quad_motors_setpoint.h" lastModified="13bcea4377b">
+      </source>
+      <source file="..\..\hwfiles\LED_Blink.c" lastModified="13bb1419e95">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\hwfiles\timing.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_timer.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_local_position_setpoint.h" lastModified="13bcea435c1">
+      </source>
+      <source file="..\..\cmsis_boot\LPC17xx.h" lastModified="13bb13da3e5">
+         <include file="..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\cmsis_boot\system_LPC17xx.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_highres_imu.h" lastModified="13bcea43594">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h" lastModified="13bcea436e1">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_debug_vect.h" lastModified="13bcea43506">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_change_operator_control.h" lastModified="13bcea434ab">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_setpoint_6dof.h" lastModified="13bcea43721">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_request_partial_list.h" lastModified="13bcea43640">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_state_correction.h" lastModified="13bcea437ad">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_servo_output_raw.h" lastModified="13bcea4371f">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_item.h" lastModified="13bcea43605">
+      </source>
+      <source file="..\..\hwfiles\HMC5883L.h" lastModified="13dd407be0c">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\hwfiles\HMC5883L.c" lastModified="13dcff552fd">
+         <include file="..\..\hwfiles\HMC5883L.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_i2c.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h" lastModified="13df50b8248">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\QRfiles\mlink.h" lastModified="13e92b198d5">
+         <include file="..\..\hwfiles\comm.h"/>
+         <include file="..\..\QRfiles\bridge.h"/>
+         <include file="..\..\mavlink\include\common\common.h"/>
+         <include file="..\..\mavlink\include\common\mavlink.h"/>
+         <include file="..\..\mavlink\include\mavlink_types.h"/>
+      </source>
+      <source file="..\..\QRfiles\mlink.c" lastModified="13e92b19887">
+         <include file="..\..\QRfiles\mlink.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\swfiles\mathfunc.h"/>
+         <include file="..\..\hwfiles\imu.h"/>
+         <include file="..\..\swfiles\control.h"/>
+         <include file="..\..\QRfiles\param.h"/>
+         <include file="..\..\hwfiles\i2ceeprom.h"/>
+      </source>
+      <source file="..\..\hwfiles\motor.h" lastModified="13df4e49958">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pwm.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_timer.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_exti.h"/>
+         <include file="..\..\swfiles\control.h"/>
+      </source>
+      <source file="..\..\hwfiles\motor.c" lastModified="13df534a1a0">
+         <include file="..\..\hwfiles\motor.h"/>
+      </source>
+      <source file="..\..\hwfiles\i2ceeprom.h" lastModified="13dbfb99070">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_write_partial_list.h" lastModified="13bcea4364f">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_exti.c" lastModified="13dee5fe3c8">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_exti.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\hwfiles\i2ceeprom.c" lastModified="13dbfb8c00e">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\hwfiles\type.h"/>
+         <include file="..\..\hwfiles\i2ceeprom.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h" lastModified="13bcea4379b">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="13bb13da3c6">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+      </source>
+      <source file="..\..\cmsis_boot\system_LPC17xx.h" lastModified="13bb13da7ed">
+      </source>
+      <source file="..\..\cmsis_boot\system_LPC17xx.c" lastModified="13bb13da7dd">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\hwfiles\MPU6050.h" lastModified="13dd407a409">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_hil_state.h" lastModified="13bcea435a9">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_timer.h" lastModified="13bb1447663">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_attitude_quaternion.h" lastModified="13bcea43490">
+      </source>
+      <source file="..\..\hwfiles\MPU6050.c" lastModified="13df5066998">
+         <include file="..\..\hwfiles\MPU6050.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_i2c.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+      </source>
+      <source file="..\..\hwfiles\comm.h" lastModified="13e18c99440">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_systick.c" lastModified="13bd2fe94fe">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_systick.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\main.c" lastModified="13e928fa231">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\hwfiles\timing.h"/>
+         <include file="..\..\hwfiles\comm.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\QRfiles\mlink.h"/>
+         <include file="..\..\swfiles\mathfunc.h"/>
+         <include file="..\..\hwfiles\imu.h"/>
+         <include file="..\..\swfiles\control.h"/>
+         <include file="..\..\hwfiles\i2ceeprom.h"/>
+         <include file="..\..\hwfiles\motor.h"/>
+         <include file="..\..\hwfiles\imu.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_wdt.h"/>
+         <include file="..\..\hwfiles\MS5611.h"/>
+         <include file="..\..\swfiles\gps.h"/>
+         <include file="..\..\hwfiles\ublox.h"/>
+      </source>
+      <source file="..\..\hwfiles\comm.c" lastModified="13e18dd7a00">
+         <include file="..\..\hwfiles\comm.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpdma.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="13bb1447847">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+      </source>
+      <source file="..\..\hwfiles\timing.h" lastModified="13e88e1e228">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\hwfiles\timing.c" lastModified="13e88e1e228">
+         <include file="..\..\hwfiles\timing.h"/>
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_timer.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rit.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\QRfiles\mlink.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+      </source>
+      <source file="..\..\QRfiles\bridge.h" lastModified="13bd2e50e6d">
+         <include file="..\..\mavlink\include\mavlink_types.h"/>
+         <include file="..\..\hwfiles\comm.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_global_vision_position_estimate.h" lastModified="13bcea43526">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_global_position_setpoint_int.h" lastModified="13bcea43523">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h" lastModified="13bb13da462">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_request_data_stream.h" lastModified="13bcea436de">
+      </source>
+      <source file="..\..\hwfiles\MS5611.h" lastModified="13e1185d298">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_gpdma.h" lastModified="13bb15cd6a4">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_gps_global_origin.h" lastModified="13bcea43533">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_manual_control.h" lastModified="13bcea435cb">
+      </source>
+      <source file="..\..\hwfiles\MS5611.c" lastModified="13e88e681c0">
+         <include file="..\..\hwfiles\MS5611.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\hwfiles\MPU6050.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_i2c.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_ping.h" lastModified="13bcea436b6">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h" lastModified="13bb1466563">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_rit.h" lastModified="13bb146a310">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_debug.h" lastModified="13bcea434fb">
+      </source>
+      <source file="..\..\swfiles\gps.h" lastModified="13e8a2a67b8">
+         <include file="..\..\hwfiles\ublox.h"/>
+         <include file="..\..\hwfiles\comm.h"/>
+         <include file="..\..\QRfiles\mlink.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+      </source>
+      <source file="..\..\swfiles\control.h" lastModified="13e654d2d65">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\hwfiles\motor.h"/>
+      </source>
+      <source file="..\..\mavlink\include\mavlink_helpers.h" lastModified="13bcea43c09">
+         <include file="..\..\mavlink\include\checksum.h"/>
+         <include file="..\..\mavlink\include\mavlink_types.h"/>
+         <include file="..\..\mavlink\include\common\mavlink.h"/>
+         <include file="..\..\mavlink\include\mavlink_types.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_uart.h" lastModified="13bb154fb18">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\protocol.h" lastModified="13bcea43c2b">
+         <include file="..\..\mavlink\include\mavlink_types.h"/>
+         <include file="..\..\mavlink\include\mavlink_helpers.h"/>
+      </source>
+      <source file="..\..\swfiles\gps.c" lastModified="13e8eb961d0">
+         <include file="..\..\swfiles\gps.h"/>
+         <include file="..\..\swfiles\control.h"/>
+         <include file="..\..\hwfiles\imu.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_timer.h"/>
+         <include file="..\..\QRfiles\mlink.h"/>
+         <include file="..\..\swfiles\quat.h"/>
+      </source>
+      <source file="..\..\swfiles\control.c" lastModified="13e92b12294">
+         <include file="..\..\swfiles\control.h"/>
+         <include file="..\..\QRfiles\mlink.h"/>
+         <include file="..\..\QRfiles\param.h"/>
+         <include file="..\..\hwfiles\imu.h"/>
+         <include file="..\..\hwfiles\timing.h"/>
+         <include file="..\..\hwfiles\MS5611.h"/>
+         <include file="..\..\swfiles\quat.h"/>
+         <include file="..\..\swfiles\gps.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_safety_set_allowed_area.h" lastModified="13bcea436fd">
+      </source>
+      <source file="..\..\mavlink\include\checksum.h" lastModified="13bcea43442">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_roll_pitch_yaw_speed_thrust.h" lastModified="13bcea437a6">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_rit.c" lastModified="13bb146a6f8">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rit.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_roll_pitch_yaw_thrust_setpoint.h" lastModified="13bcea436e4">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_data_stream.h" lastModified="13bcea434f7">
+      </source>
+      <source file="..\..\mavlink\include\common\common.h" lastModified="13bcea4345a">
+         <include file="..\..\mavlink\include\protocol.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_heartbeat.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_sys_status.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_system_time.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_ping.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_change_operator_control.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_change_operator_control_ack.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_auth_key.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_mode.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_param_request_read.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_param_request_list.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_param_value.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_param_set.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_gps_raw_int.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_gps_status.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_scaled_imu.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_raw_imu.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_raw_pressure.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_scaled_pressure.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_attitude.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_attitude_quaternion.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_local_position_ned.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_global_position_int.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_rc_channels_scaled.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_rc_channels_raw.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_servo_output_raw.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_request_partial_list.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_write_partial_list.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_item.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_request.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_set_current.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_current.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_request_list.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_count.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_clear_all.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_item_reached.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_mission_ack.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_gps_global_origin.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_gps_global_origin.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_local_position_setpoint.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_local_position_setpoint.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_global_position_setpoint_int.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_global_position_setpoint_int.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_safety_set_allowed_area.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_safety_allowed_area.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_roll_pitch_yaw_thrust.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_roll_pitch_yaw_speed_thrust.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_roll_pitch_yaw_thrust_setpoint.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_quad_motors_setpoint.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_nav_controller_output.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_state_correction.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_request_data_stream.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_data_stream.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_manual_control.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_rc_channels_override.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_vfr_hud.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_command_long.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_command_ack.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_local_position_ned_system_global_offset.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_hil_state.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_hil_controls.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_hil_rc_inputs_raw.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_optical_flow.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_global_vision_position_estimate.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_vision_position_estimate.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_vision_speed_estimate.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_vicon_position_estimate.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_highres_imu.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_battery_status.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_setpoint_8dof.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_setpoint_6dof.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_memory_vect.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_debug_vect.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_named_value_float.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_named_value_int.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_statustext.h"/>
+         <include file="..\..\mavlink\include\common\mavlink_msg_debug.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h" lastModified="13bcea43797">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_heartbeat.h" lastModified="13bcea43590">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_param_value.h" lastModified="13bcea436ad">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_param_set.h" lastModified="13bcea4369c">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_optical_flow.h" lastModified="13bcea4368f">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_gpdma.c" lastModified="13bb15cda8c">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpdma.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_timer.c" lastModified="13bdd3d5c10">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_timer.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc_types.h" lastModified="13bb13da86a">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h" lastModified="13bb13da3c6">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h" lastModified="13bb1447838">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_vision_position_estimate.h" lastModified="13bcea437ed">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="13df50b8630">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_raw_pressure.h" lastModified="13bcea436c4">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_pwm.h" lastModified="13dbfe36abd">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_statustext.h" lastModified="13bcea437cc">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_set_current.h" lastModified="13bcea4364d">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_gps_status.h" lastModified="13bcea4357d">
+      </source>
+      <source file="..\..\hwfiles\type.h" lastModified="13c62b6e632">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_command_ack.h" lastModified="13bcea434ca">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_vfr_hud.h" lastModified="13bcea437e7">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_rc_channels_raw.h" lastModified="13bcea436d8">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_setpoint_8dof.h" lastModified="13bcea43724">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_battery_status.h" lastModified="13bcea434a8">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_pwm.c" lastModified="13dc04eec71">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pwm.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_local_position_ned_system_global_offset.h" lastModified="13bcea435be">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_auth_key.h" lastModified="13bcea43498">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_i2c.h" lastModified="13dca4db38f">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_global_position_int.h" lastModified="13bcea43513">
+      </source>
+      <source file="..\..\mavlink\include\common\version.h" lastModified="13bcea43814">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_named_value_float.h" lastModified="13bcea4365b">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_scaled_imu.h" lastModified="13bcea43700">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_gps_global_origin.h" lastModified="13bcea43740">
+      </source>
+      <source file="..\..\swfiles\quat.h" lastModified="13e892501c0">
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\QRfiles\param.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\hwfiles\imu.h"/>
+      </source>
+      <source file="..\..\swfiles\quat.c" lastModified="13e92c7c2ef">
+         <include file="..\..\swfiles\quat.h"/>
+         <include file="..\..\QRfiles\mlink.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_i2c.c" lastModified="13dca4db7a0">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_i2c.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_request.h" lastModified="13bcea43623">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_hil_controls.h" lastModified="13bcea435a5">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_rc_channels_scaled.h" lastModified="13bcea436db">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_vicon_position_estimate.h" lastModified="13bcea437eb">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_named_value_int.h" lastModified="13bcea4366d">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_nvic.c" lastModified="13bb1466563">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_item_reached.h" lastModified="13bcea43619">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="13bb154ff08">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\hwfiles\imu.h" lastModified="13e8a2dc318">
+         <include file="..\..\hwfiles\MPU6050.h"/>
+         <include file="..\..\hwfiles\HMC5883L.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_i2c.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\swfiles\quat.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_current.h" lastModified="13bcea43601">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_clear_all.h" lastModified="13bcea435eb">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_safety_allowed_area.h" lastModified="13bcea436e6">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_mode.h" lastModified="13bcea43778">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_change_operator_control_ack.h" lastModified="13bcea434bc">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_exti.h" lastModified="13dee5fdfd0">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_command_long.h" lastModified="13bcea434d7">
+      </source>
+      <source file="..\..\mavlink\include\mavlink_types.h" lastModified="13bcea43c20">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_attitude.h" lastModified="13bcea43470">
+      </source>
+      <source file="..\..\swfiles\mathfunc.h" lastModified="13bcea28190">
+      </source>
+      <source file="..\..\hwfiles\ublox.h" lastModified="13e19230e80">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\hwfiles\LED_Blink.h"/>
+         <include file="..\..\swfiles\gps.h"/>
+         <include file="..\..\hwfiles\comm.h"/>
+      </source>
+      <source file="..\..\hwfiles\ublox.c" lastModified="13e1923aac0">
+         <include file="..\..\hwfiles\ublox.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_request_list.h" lastModified="13bcea43634">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="13bb13da482">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_rc_channels_override.h" lastModified="13bcea436d4">
+      </source>
+      <source file="..\..\QRfiles\param.h" lastModified="13dcfebfdd4">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_nav_controller_output.h" lastModified="13bcea4367f">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_wdt.h" lastModified="13dcec8267a">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\QRfiles\param.c" lastModified="13c62b96954">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_vision_speed_estimate.h" lastModified="13bcea437ff">
+      </source>
+      <source file="..\..\cmsis\core_cm3.h" lastModified="13bb13dac23">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_global_position_setpoint_int.h" lastModified="13bcea43726">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_hil_rc_inputs_raw.h" lastModified="13bcea435a7">
+      </source>
+      <source file="..\..\cmsis\core_cm3.c" lastModified="13bb13da823">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_count.h" lastModified="13bcea435f5">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_raw_imu.h" lastModified="13bcea436c1">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_sys_status.h" lastModified="13bcea437e3">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_systick.h" lastModified="13bd2fe9114">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink.h" lastModified="13bcea4345d">
+         <include file="..\..\mavlink\include\common\version.h"/>
+         <include file="..\..\mavlink\include\common\common.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_scaled_pressure.h" lastModified="13bcea43712">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_wdt.c" lastModified="13dcec82a64">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_wdt.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_mission_ack.h" lastModified="13bcea435df">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_param_request_read.h" lastModified="13bcea4369a">
+      </source>
+      <source file="..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="13bb13da3e5">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_gps_raw_int.h" lastModified="13bcea43547">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_memory_vect.h" lastModified="13bcea435dc">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_local_position_ned.h" lastModified="13bcea435ac">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_set_local_position_setpoint.h" lastModified="13bcea43761">
+      </source>
+      <source file="..\..\mavlink\include\common\mavlink_msg_system_time.h" lastModified="13bcea437da">
+      </source>
+   </includePath>
+</dependencies>

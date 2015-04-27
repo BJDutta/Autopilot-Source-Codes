@@ -1,0 +1,10 @@
+
+
+
+remove throttle cut safety in altitude control mode
+
+
+hardware 
+
+rc transmitter on check/ failsafe
+bluetooth baudrate update

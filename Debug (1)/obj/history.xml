@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -O0 -g -c -DLPC1768 -I. -Ilpc17xx_lib -Ilpc17xx_lib\include -Icmsis_boot -Icmsis -Ihwfiles -Iswfiles -IQRfiles -Imavlink -Imavlink\include -Imavlink\include\common">
+      <target file="imu.o" lastModified="13e92cc7f38">
+         <source file="..\..\hwfiles\imu.c" lastModified="13e92cc7b75"/>
+      </target>
+      <target file="lpc17xx_gpdma.o" lastModified="13e92b7d4de">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_gpdma.c" lastModified="13bb15cd6a4"/>
+      </target>
+      <target file="lpc17xx_i2c.o" lastModified="13e92b7dae1">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_i2c.c" lastModified="13dca4db3b8"/>
+      </target>
+      <target file="lpc17xx_pinsel.o" lastModified="13e92b7d991">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="13bb1447847"/>
+      </target>
+      <target file="lpc17xx_clkpwr.o" lastModified="13e92b7d123">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="13bb13da3c6"/>
+      </target>
+      <target file="control.o" lastModified="13e92b7cee1">
+         <source file="..\..\swfiles\control.c" lastModified="13e92b11ac4"/>
+      </target>
+      <target file="gps.o" lastModified="13e92b7dbc4">
+         <source file="..\..\swfiles\gps.c" lastModified="13e8eb961d0"/>
+      </target>
+      <target file="lpc17xx_pwm.o" lastModified="13e92b7dd25">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_pwm.c" lastModified="13dc04ee889"/>
+      </target>
+      <target file="lpc17xx_rit.o" lastModified="13e92b7d175">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_rit.c" lastModified="13bb146a310"/>
+      </target>
+      <target file="core_cm3.o" lastModified="13e92b7d09c">
+         <source file="..\..\cmsis\core_cm3.c" lastModified="13bb13da43b"/>
+      </target>
+      <target file="lpc17xx_libcfg_default.o" lastModified="13e92b7d93c">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="13bb13da482"/>
+      </target>
+      <target file="lpc17xx_uart.o" lastModified="13e92b7d478">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="13bb154fb20"/>
+      </target>
+      <target file="ublox.o" lastModified="13e92b7d6ac">
+         <source file="..\..\hwfiles\ublox.c" lastModified="13e1923aac0"/>
+      </target>
+      <target file="mlink.o" lastModified="13e92b7d371">
+         <source file="..\..\QRfiles\mlink.c" lastModified="13e92b1949f"/>
+      </target>
+      <target file="comm.o" lastModified="13e92b7d78e">
+         <source file="..\..\hwfiles\comm.c" lastModified="13e18dd7a00"/>
+      </target>
+      <target file="lpc17xx_wdt.o" lastModified="13e92b7d861">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_wdt.c" lastModified="13dcec8267c"/>
+      </target>
+      <target file="motor.o" lastModified="13e92b7d8c9">
+         <source file="..\..\hwfiles\motor.c" lastModified="13df534a1a0"/>
+      </target>
+      <target file="lpc17xx_nvic.o" lastModified="13e92b7dca7">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_nvic.c" lastModified="13bb1466563"/>
+      </target>
+      <target file="lpc17xx_timer.o" lastModified="13e92b7cf5b">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_timer.c" lastModified="13bdd3d5828"/>
+      </target>
+      <target file="lpc17xx_exti.o" lastModified="13e92b7d9ee">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_exti.c" lastModified="13dee5fdfe0"/>
+      </target>
+      <target file="lpc17xx_gpio.o" lastModified="13e92b7d80b">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="13df50b8248"/>
+      </target>
+      <target file="system_LPC17xx.o" lastModified="13e92b7d232">
+         <source file="..\..\cmsis_boot\system_LPC17xx.c" lastModified="13bb13da3f5"/>
+      </target>
+      <target file="HMC5883L.o" lastModified="13e92b7d1e6">
+         <source file="..\..\hwfiles\HMC5883L.c" lastModified="13dcff552fd"/>
+      </target>
+      <target file="MPU6050.o" lastModified="13e92b7dec1">
+         <source file="..\..\hwfiles\MPU6050.c" lastModified="13df5066998"/>
+      </target>
+      <target file="startup_LPC17xx.o" lastModified="13e92b7d904">
+         <source file="..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="13bb13da3e5"/>
+      </target>
+      <target file="MS5611.o" lastModified="13e92b7cdd3">
+         <source file="..\..\hwfiles\MS5611.c" lastModified="13e88e67dd8"/>
+      </target>
+      <target file="i2ceeprom.o" lastModified="13e92b7dc5f">
+         <source file="..\..\hwfiles\i2ceeprom.c" lastModified="13dbfb8c00e"/>
+      </target>
+      <target file="LED_Blink.o" lastModified="13e92b7d3ba">
+         <source file="..\..\hwfiles\LED_Blink.c" lastModified="13bb1419e95"/>
+      </target>
+      <target file="timing.o" lastModified="13e92b7cd5f">
+         <source file="..\..\hwfiles\timing.c" lastModified="13e88e1e228"/>
+      </target>
+      <target file="lpc17xx_systick.o" lastModified="13e92b7da3f">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_systick.c" lastModified="13bd2fe9116"/>
+      </target>
+      <target file="quat.o" lastModified="13e92c7c786">
+         <source file="..\..\swfiles\quat.c" lastModified="13e92c7c2ef"/>
+      </target>
+      <target file="main.o" lastModified="13e92b7d5dd">
+         <source file="..\..\main.c" lastModified="13e928fa231"/>
+      </target>
+      <target file="param.o" lastModified="13e92b7d0ce">
+         <source file="..\..\QRfiles\param.c" lastModified="13c62b96954"/>
+      </target>
+   </processor>
+</history>
